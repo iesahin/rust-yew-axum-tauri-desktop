@@ -1,8 +1,10 @@
 [workspace]
 members = [
-    "crates/backend",
-    "crates/frontend",
-    "crates/server",
-    "crates/tauri",
-    "crates/types",
+  "crates/backend",
+  "crates/frontend",
+  "crates/server",
+  "crates/tauri",
+  "crates/types",
 ]
+
+workspace.resolver = "2"
